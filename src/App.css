@@ -1,38 +1,66 @@
-.App {
-  text-align: center;
+#root {
+    background-image : url("./img/fde.jpg");
+    background-repeat: no-repeat;
+    background-size  : cover;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navBar {
+    display        : flex;
+    justify-content: center;
+    font-size      : 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container {
+    display        : flex;
+    flex-direction : row;
+    flex-wrap      : wrap;
+    justify-content: center;
+    width          : 75%;
+    height         : 700px;
+    margin-top     : 40px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.img {
+    height: 200px;
+    width : 200px;
 }
 
-.App-link {
-  color: #61dafb;
+.titles {
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    width          : 75%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a {
+    font-size : 16px;
+    color     : white;
+    margin-top: 10px;
+}
+
+.flex {
+    display       : flex;
+    flex-wrap     : wrap;
+    flex-direction: column;
+    align-items   : center;
+    color         : white;
+    margin        : 0 20px;
+}
+
+.listed {
+    height: 700px;
+}
+
+.error {
+    display        : flex;
+    height         : 700px;
+    color          : white;
+    justify-content: center;
+}
+
+.error h1 {
+    font-size       : 100px;
+    background-image: url("https://cdn-s-www.estrepublicain.fr/images/1A8F71A8-CE82-4C0B-A10F-595E7CFA710A/NW_raw/quatre-jeunes-ont-realise-un-remake-du-film-quot-vendredi-13-quot-photo-cc-wikipedia-superhero92-1502698167.jpg");
+    height          : 500px;
+    color           : black;
 }
